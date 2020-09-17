@@ -1,0 +1,56 @@
+#page-survivor-card{
+  width: 100vw;
+  height: 100vh;
+  align-content: center;
+}
+
+
+.content{
+  background-color: var(--color-box-base);
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin: 0 auto;
+  max-width: 1500px;
+}
+
+.survivor-card{
+  border-radius: 16px ;
+  border: 0.2rem solid var(--color-border-card);
+  background-color: var(--color-card-background);
+  margin: 2.5rem 1.5rem;
+  padding: 16px 25px;
+  align-content: center;
+}
+
+.survivor-card strong{
+  color: var(--color-primary-light);
+}
+
+.survivor-card p{
+  font: 700 1.5rem Source Sans Pro;
+  color: var(--color-text-base);
+}
+
+.survivor-card span{
+  font: 400 1.5rem Source Sans Pro;
+  color: var(--color-primary-lighter);
+}
+
+
+
+
+@media(min-width: 700px){
+  #page-survivor-card{
+    max-width: 100vw;
+  }
+
+  #page-survivor-card{
+    margin-bottom: 0;
+  }
+
+  .content{
+    grid-template-columns: 1fr 1fr;
+  }
+
+}

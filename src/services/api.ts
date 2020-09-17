@@ -1,7 +1,9 @@
 import axios from 'axios'
 
+
 const api = axios.create({
-  baseURL : 'ttp://zssn-backend-example.herokuapp.com/api/people.json'
+  baseURL : `http://zssn-backend-example.herokuapp.com/api/`
 })
+
 
 export default api

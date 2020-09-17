@@ -1,0 +1,35 @@
+#page-reports-card{
+  width: 100vw;
+  height: 100vh;
+  align-content: center;
+}
+
+.list-reports{
+  background: var(--color-card-background);
+  align-content: center;
+  
+}
+
+.options-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 46px;
+  margin: 0 20px;
+}
+
+.map{
+  max-height: 300px;
+  max-width: 300px;
+}
+
+@media(min-width: 700px){
+  #page-reports-card{
+    max-width: 100vw;
+  }
+
+  #page-reports-card{
+    margin-bottom: 0;
+  }
+
+}
+
